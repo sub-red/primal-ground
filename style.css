@@ -34,10 +34,33 @@ body {
 
 header {
     background: red;
+    min-height: calc(100vh - 150px);
+    width: 100%;
+    
+}
+
+#header-text {
+  margin-top: 25vh;
+  text-align: center;
+}
+
+#header-text h1 {
+  font-size: 3.5rem;
+  border-bottom: solid 2px white;
+  border-bottom-width: 100%;
+}
+
+#header-text p {
+  font-size: 1.5rem;
 }
 
 main {
     background: grey;
+}
+
+.text-container {
+  height: 40vh;
+  width: 100%;
 }
 
 footer {
