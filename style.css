@@ -4,6 +4,30 @@
     margin: 0;
 }
 
+
+/* HAMBURGER MENU */
+.hamburger-menu {
+    position: absolute;
+    z-index: 3;
+    right: 35px;
+    top: 35px;
+    cursor: pointer;
+    transition: all 0.5s ease-out; }
+    .hamburger-menu .btn-line {
+      width: 28px;
+      height: 3px;
+      margin: 0 0 5px 0;
+      background: #fff;
+      transition: all 0.5s ease-out; }
+    .hamburger-menu.close {
+      transform: rotate(180deg); }
+      .hamburger-menu.close .btn-line:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px); }
+      .hamburger-menu.close .btn-line:nth-child(2) {
+        opacity: 0; }
+      .hamburger-menu.close .btn-line:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -6px); }
+
 body {
     background: pink;
 }
@@ -19,4 +43,5 @@ main {
 footer {
     background: green;
 }
+
 
