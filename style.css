@@ -73,23 +73,23 @@
 }
 
 .menu .nav-item.current > a {
-  color: darkmagenta;
+  color: #40E0D0;
 }
 
 .menu .nav-link {
   display: inline-block;
   position: relative;
   font-size: 70px;
+  font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
-  padding: 1rem 0;
-  font-weight: 300;
+  font-weight: 500;
   color: #fff;
   text-decoration: none;
   transition: all 0.5s ease-out;
 }
 
 .menu .nav-link:hover {
-  color: darkmagenta;
+  color: #40E0D0;
 }
 
 .nav-intem:nth-child(1) {
@@ -108,21 +108,19 @@
   transition-delay: 0.4s;
 }
 
-body {
-    background: yellow;
-}
-
 header {
-    background: url(/img/Siluette\ Pariserviken.jpg) no-repeat;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/img/Siluette\ Pariserviken.jpg) no-repeat center center fixed;
     background-size: cover;
     background-attachment: fixed;
     min-height: calc(100vh - 150px);
     width: 100%;
 }
 
+
+
 #header-text {
   margin-top: 25vh;
-  width: 500px;
+  width: 400px;
   color: white;
   margin: 30vh auto;
   text-align: center;
@@ -137,9 +135,12 @@ header {
 }
 
 #header-text p {
-  font-size: 1.5rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.225rem;
   padding: 10px 0 0 0;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
 }
 
 main {
@@ -149,7 +150,7 @@ main {
 .text-container {
   height: 40vh;
   width: 100%;
-  background: lightskyblue;
+  background: white;
   overflow: hidden;
 }
 
@@ -173,9 +174,8 @@ main {
 .content-boxes {
   width: 100%;
   height: 40vh;
-  background: lightcoral;
+  background: #FFC787;
   display: grid;
-    grid-gap: 30px;
     grid-template-areas: 
     'box-content-1 box-content-2 box-content-3';
     grid-template-columns: repeat(3, 1fr);
@@ -185,7 +185,8 @@ main {
 .box-content {
   margin: 40px;
   border-radius: 10px;
-  border: 2px solid white;
+  box-shadow: 0px 0px 10px 3px #464646;
+  border: 1px solid rgba(245, 245, 245, 0.603);
 }
 
 .overlay {
@@ -243,9 +244,58 @@ main {
 }
 
 footer {
-    background: green;
+    background: #3D3833;
     width: 100%;
     height: 20vh;
+    display: grid;
+    grid-template-areas: 
+    'footer-content-1 footer-content-2 footer-content-3'
+    'branding branding branding';
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.footer-content {
+  margin: 0 auto;
+  text-align: center;
+  color: whitesmoke;
+  font-family: 'Oswald', serif;
+  padding: 10px;
+}
+
+.footer-content-1 {
+  grid-area: footer-content-1;
+}
+
+.footer-content-2 {
+  grid-area: footer-content-2;
+}
+
+.footer-content-3 {
+  grid-area: footer-content-3;
+}
+
+.branding {
+  grid-area: branding;
+  text-align: center;
+  color: rgb(116, 116, 116);
+}
+
+footer h3 {
+  padding: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.fa-facebook {
+  font-size: 25px;
+  padding: 0 5px 0 0;
+}
+
+.fa-instagram {
+  font-size: 25px;
 }
 
 
