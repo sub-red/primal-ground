@@ -113,7 +113,9 @@ body {
 }
 
 header {
-    background: red;
+    background: url(/img/Siluette\ Pariserviken.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     min-height: calc(100vh - 150px);
     width: 100%;
 }
@@ -174,23 +176,46 @@ main {
     grid-template-columns: repeat(3, 1fr);
 }
 
+
 .box-content {
   margin: 40px;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+
+.overlay {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0, 0, 0, 0.801);
+}
+
+.box-content:hover .overlay {
+  opacity: 1;
 }
 
 .box-content-1 {
   grid-area: box-content-1;
-  background: lightsalmon;
+  background: url(/img/Dansworkshop2.jpg);
+  background-size: cover;
+
 }
 
 .box-content-2 {
   grid-area: box-content-2;
-  background: lightgrey;
+  background: url(/img/Dansoutdoor2.jpg);
+  background-size: cover;
 }
 
 .box-content-3 {
   grid-area: box-content-3;
-  background: lightseagreen;
+  background: url(/img/Inför\ Fotbolls\ EM\ damer1.jpg);
+  background-size: cover;
 }
 
 footer {
