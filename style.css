@@ -287,6 +287,11 @@ footer a {
   color: whitesmoke;
 }
 
+footer a:hover {
+  color: #40E0D0;
+  transition: .5s ease;
+}
+
 .fa-facebook {
   font-size: 25px;
   padding: 0 5px 0 0;
