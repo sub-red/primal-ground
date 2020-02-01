@@ -141,10 +141,6 @@ header {
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
 }
 
-main {
-    background: grey;
-}
-
 .text-container {
   height: 40vh;
   width: 100%;
@@ -154,7 +150,7 @@ main {
 
 .text-content {
   font-family: 'Oswald', sans-serif;
-  padding: 45px;
+  padding: 40px;
   margin-left: 15vw;
 }
 
@@ -166,7 +162,7 @@ main {
 .text-content p {
   font-size: 1.2rem;
   padding: 10px;
-  margin-right: 40vw;
+  margin-right: 30vw;
 }
 
 .content-boxes {
@@ -197,6 +193,7 @@ main {
   opacity: 0;
   transition: .5s ease;
   background-color: rgba(0, 0, 0, 0.801);
+  min-width: 365px;
 }
 
 .box-content:hover .overlay {
@@ -300,5 +297,209 @@ footer a:hover {
 .fa-instagram {
   font-size: 25px;
 }
+
+@media screen and (max-width: 1440px) {
+  .text-content {
+    font-family: 'Oswald', sans-serif;
+    padding: 20px;
+    margin-left: 15vw;
+  }
+
+  .text-content p {
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-right: 25vw;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .text-container {
+    height: 25vh;
+    width: 100%;
+    background: white;
+    overflow: auto;
+  }
+  
+  .text-content {
+    font-family: 'Oswald', sans-serif;
+    padding: 10px;
+    margin-left: 5vw;
+  }
+
+  .text-content p {
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-right: 10vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .text-container {
+    height: 35vh;
+    width: 100%;
+    background: white;
+    overflow: auto;
+  }
+  
+  .text-content {
+    font-family: 'Oswald', sans-serif;
+    padding: 10px;
+    margin-left: 5vw;
+  }
+
+  .text-content p {
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-right: 10vw;
+  }
+
+  .content-boxes {
+    width: 100%;
+    height: 100vh;
+    background: #FFC787;
+    display: grid;
+      grid-template-areas: 
+      'box-content-1'
+      'box-content-2'
+      'box-content-3';
+      grid-template-columns: repeat(1, 1fr);
+  }
+
+  .box-content {
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 3px #464646;
+    border: 1px solid rgba(245, 245, 245, 0.603);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #header-text {
+    margin-top: 25vh;
+    width: 300px;
+    color: white;
+    margin: 30vh auto;
+    text-align: center;
+  }
+
+  #header-text h1 {
+    font-size: 2.5rem;
+    font-family: 'Kaushan Script', cursive;
+    letter-spacing: 3px;
+    border-bottom: solid 2px white;
+    border-bottom-width: 100%;
+  }
+  
+  #header-text p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    padding: 5px 0 0 0;
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  }
+  
+  
+  .text-container {
+    min-height: 55vh;
+    width: 100%;
+    background: white;
+    overflow: auto;
+  }
+  
+  .text-content {
+    font-family: 'Oswald', sans-serif;
+    padding: 5px;
+    margin-left: 2vw;
+  }
+
+  .text-content h2 {
+    font-size: 1.5rem;
+    padding: 5px;
+  }
+
+  .text-content p {
+    font-size: 1.05rem;
+    padding: 5px;
+    margin-right: 2vw;
+  }
+
+  .content-boxes {
+    width: 100%;
+    height: 100vh;
+    background: #FFC787;
+    display: grid;
+      grid-template-areas: 
+      'box-content-1'
+      'box-content-2'
+      'box-content-3';
+      grid-template-columns: repeat(1, 1fr);
+  }
+
+  .box-content {
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 3px #464646;
+    border: 1px solid rgba(245, 245, 245, 0.603);
+  }
+
+  .text h3 {
+    font-size: 1.5rem;
+    margin: 10px 10px 0px;
+    padding: 5px;
+  }
+  
+  .text p {
+    font-size: 1rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+  }
+  
+  footer {
+    background: #3D3833;
+    width: 100%;
+    height: 40vh;
+    display: grid;
+    grid-template-areas: 
+    'footer-content-1'
+    'footer-content-2'
+    'footer-content-3'
+    'branding';
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .footer-content {
+  margin: 0 auto;
+  text-align: center;
+  color: whitesmoke;
+  font-family: 'Oswald', serif;
+  padding: 5px;
+  margin: 0;
+  }
+
+  .footer-content-1 {
+  grid-area: footer-content-1;
+  }
+
+  .footer-content-2 {
+  grid-area: footer-content-2;
+  }
+
+  .footer-content-3 {
+  grid-area: footer-content-3;
+  }
+
+  footer h3 {
+    padding: 5px;
+  }
+
+  .branding {
+  grid-area: branding;
+  text-align: center;
+  color: rgb(116, 116, 116);
+  }
+}
+
 
 
