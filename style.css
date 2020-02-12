@@ -312,6 +312,66 @@ header {
   background-size: cover;
 }
 
+/*MAIN CONTENT ABOUT*/
+#text-container-about {
+  width: 100%;
+  display: grid;
+  grid-template-areas: 
+  'about-content-1 about-content-1 about-content-1 about-content-2 about-content-2';
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.text-container-content-about {
+
+}
+
+.about-content-1 {
+  grid-area: about-content-1;
+}
+
+.about-content-2 {
+  grid-area: about-content-2;
+}
+
+.text-container-content-about {
+  font-family: 'Oswald', sans-serif;
+  height: 40vh;
+  width: 100%;
+  background: white;
+  overflow: hidden;
+}
+
+.about-content-1 {
+  padding: 30px;
+  margin-left: 10vw;
+}
+
+.about-content-1 p{
+  margin-right: 250px;
+}
+
+.text-container-content-about h2 {
+  font-size: 2.2rem;
+  padding: 10px;
+}
+
+.text-container-content-about p {
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+.about-content-2 img {
+  width: auto;
+  height: 80%;
+  margin: 30px;
+  filter: grayscale(30%);
+  background: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 3px #464646;
+  border: 1px solid rgba(245, 245, 245, 0.603);
+}
+
+
 /*MAIN CONTENT CONTACT*/
 .contact {
   
