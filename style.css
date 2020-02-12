@@ -108,6 +108,7 @@
   transition-delay: 0.4s;
 }
 
+/*FRONT-PAGE HEADER*/
 header {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/img/Siluette\ Pariserviken.jpg) no-repeat center center fixed;
     background-size: cover;
@@ -141,6 +142,79 @@ header {
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
 }
 
+/*ABOUT HEADER*/
+#header-about {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/img/Siluette\ Pariserviken.jpg) no-repeat center center fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 40vh;
+  width: 100%;
+}
+#header-text-about {
+  margin-top: 20vh;
+  width: 220px;
+  color: white;
+  margin: 15vh auto;
+  text-align: center;
+}
+
+#header-text-about h1{
+  font-size: 3rem;
+  font-family: 'Abril FatFace', cursive;
+  letter-spacing: 3px;
+  border-bottom: solid 2px white; 
+  border-bottom-width: 100%;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+#header-text-about p{
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.225rem;
+  padding: 10px 0 0 0;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+}
+
+/*CONTACT HEADER*/
+#header-contact {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/img/Siluette\ Pariserviken.jpg) no-repeat center center fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 40vh;
+  width: 100%;
+}
+
+#header-text-contact {
+  margin-top: 20vh;
+  width: 275px;
+  color: white;
+  margin: 15vh auto;
+  text-align: center;
+}
+
+#header-text-contact h1 {
+  font-size: 3rem;
+  font-family: 'Abril FatFace', cursive;
+  letter-spacing: 3px;
+  border-bottom: solid 2px white; 
+  border-bottom-width: 100%;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+#header-text-contact p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.225rem;
+  padding: 10px 0 0 0;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+}
+
+
+/*MAIN CONTENT*/
 .text-container {
   height: 40vh;
   width: 100%;
@@ -236,6 +310,20 @@ header {
   grid-area: box-content-3;
   background: url(/img/Inför\ Fotbolls\ EM\ damer1.jpg);
   background-size: cover;
+}
+
+/*MAIN CONTENT CONTACT*/
+.contact {
+  
+}
+
+.contact p a {
+  text-decoration: none;
+  color: #3D3833;
+}
+
+.contact p a:hover {
+  color: #40E0D0;
 }
 
 footer {
