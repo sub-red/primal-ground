@@ -110,7 +110,7 @@
 
 /*FRONT-PAGE HEADER*/
 header {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/img/Siluette\ Pariserviken.jpg) no-repeat center center fixed;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(img/Siluette\ Pariserviken.jpg) no-repeat center center fixed;
     background-size: cover;
     background-attachment: fixed;
     min-height: calc(100vh - 150px);
@@ -144,7 +144,7 @@ header {
 
 /*ABOUT HEADER*/
 #header-about {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/img/about-header.jpg) 75% 25%;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(img/about-header.jpg) 75% 25%;
   background-size: cover;
   background-attachment: fixed;
   min-height: 50vh;
@@ -179,7 +179,7 @@ header {
 
 /*CONTACT HEADER*/
 #header-contact {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/img/contact-header.jpg) no-repeat center center fixed;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(img/contact-header.jpg) no-repeat center center fixed;
   background-size: cover;
   background-attachment: fixed;
   min-height: 50vh;
@@ -294,20 +294,20 @@ header {
 
 .box-content-1 {
   grid-area: box-content-1;
-  background: url(/img/Dansworkshop2.jpg);
+  background: url(img/Dansworkshop2.jpg);
   background-size: cover;
 
 }
 
 .box-content-2 {
   grid-area: box-content-2;
-  background: url(/img/Dansoutdoor2.jpg);
+  background: url(img/Dansoutdoor2.jpg);
   background-size: cover;
 }
 
 .box-content-3 {
   grid-area: box-content-3;
-  background: url(/img/Inför\ Fotbolls\ EM\ damer1.jpg);
+  background: url(img/Inför\ Fotbolls\ EM\ damer1.jpg);
   background-size: cover;
 }
 
@@ -321,7 +321,7 @@ header {
 }
 
 .contact p a:hover {
-  color: #40E0D0;
+  color: rgb(110, 110, 110);
 }
 
 footer {
