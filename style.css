@@ -593,7 +593,7 @@ footer a:hover {
   and (-webkit-min-device-pixel-ratio: 2) { 
      header {
        min-width: fit-content;
-       background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(img/Siluette\ Pariserviken.jpg) no-repeat center fixed;
+       background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(img/sunset.png) no-repeat center center fixed;
        background-size: cover;
        background-attachment: fixed;
        min-height: calc(100vh - 150px);
