@@ -597,18 +597,21 @@ footer a:hover {
        background-attachment: fixed;
        min-height: calc(100vh - 150px);
        width: 100%;
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
      }
 
      #header-text {
       margin-top: 25vh;
-      width: 100%;
+      width: 320px;
       color: white;
       margin: 30vh auto;
       text-align: center;
     }
     
     #header-text h1 {
-      font-size: 2rem;
+      font-size: 2.2rem;
       font-family: 'Kaushan Script', cursive;
       letter-spacing: 3px;
       border-bottom: solid 2px white;
@@ -616,7 +619,7 @@ footer a:hover {
     }
     
     #header-text p {
-      font-size: 0.9rem;
+      font-size: 0.8rem;
       font-weight: 400;
       text-transform: uppercase;
       letter-spacing: 0.225rem;
