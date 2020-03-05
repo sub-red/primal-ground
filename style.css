@@ -612,6 +612,28 @@ footer a:hover {
        width: 100%;
      }
 
+     #header-contact {
+      background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(img/sunset.png) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      background-attachment: initial;
+      min-height: calc(50vh);
+      width: 100%;
+    }
+
+    #header-about {
+      background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(img/sunset.png) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      background-attachment: initial;
+      min-height: calc(50vh);
+      width: 100%;
+    }
+
      #header-text {
       margin-top: 25vh;
       width: 320px;
