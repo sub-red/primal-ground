@@ -611,8 +611,8 @@ footer a:hover {
     }
     
     #header-text h1 {
-      font-size: 2.5rem;
-      font-weight: 400;
+      font-size: 2.7rem;
+      font-weight: 700;
       font-family: 'Kaushan Script', cursive;
       letter-spacing: 2px;
       border-bottom: solid 2px white;
@@ -620,10 +620,10 @@ footer a:hover {
     }
     
     #header-text p {
-      font-size: 0.8rem;
+      font-size: 0.7rem;
       font-weight: 400;
       text-transform: uppercase;
-      letter-spacing: 0.2rem;
+      letter-spacing: 0.125rem;
       padding: 10px 0 0 0;
       font-family: 'Source Sans Pro', Helvetica, sans-serif;
     }
