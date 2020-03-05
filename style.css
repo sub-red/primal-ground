@@ -598,6 +598,31 @@ footer a:hover {
        min-height: calc(100vh - 150px);
        width: 100%;
      }
+
+     #header-text {
+      margin-top: 25vh;
+      width: 300px;
+      color: white;
+      margin: 30vh auto;
+      text-align: center;
+    }
+    
+    #header-text h1 {
+      font-size: 2rem;
+      font-family: 'Kaushan Script', cursive;
+      letter-spacing: 3px;
+      border-bottom: solid 2px white;
+      border-bottom-width: 100%;
+    }
+    
+    #header-text p {
+      font-size: 0.9rem;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 0.225rem;
+      padding: 10px 0 0 0;
+      font-family: 'Source Sans Pro', Helvetica, sans-serif;
+    }
      
 }
 
