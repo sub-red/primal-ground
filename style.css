@@ -421,6 +421,10 @@ footer a:hover {
 
 @media screen and (max-width: 768px) {
 
+  .menu .nav-item {
+    margin-bottom: 0;
+  }
+
   .text-container {
     min-height: 35vh;
     width: 100%;
@@ -603,9 +607,9 @@ footer a:hover {
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
 
-    .menu-nav {
-      height: 100%;
-    } 
+     .menu .nav-item {
+       margin-bottom: 0;
+     }
 
      header {
        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(img/sunset.png) no-repeat center center fixed;
